@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalscore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter Your Name</h2>
+                <input type="text" name="name" id="username" placeholder="Enter Your Name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save</button>
+            </form>
+            <a href="game.html" class="btn">Play Again</a>
+            <a href="Start.html" class="btn">Go Home<i class="fa-solid fa-house-user"></i></a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
